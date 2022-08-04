@@ -1,0 +1,8 @@
+# location of config files and master scripts
+export NEXTSIM_CODE_DIR=/bettik/alberta/n/nextsim200
+
+# singularity image
+export NEXTSIM_IMAGE_NAME=/bettik/alberta/runs_nextsim/nextsim.sif
+
+#bind paths
+export SINGULARITY_BIND="$NEXTSIM_CODE_DIR:/nextsim"

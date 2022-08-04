@@ -1,11 +1,11 @@
 # location of config files and master scripts
-export NEXTSIM_CONFIG_DIR=/bettik/alberta/runs_nextsim/small-arctic-10km/run_10d_16cores
+export NEXTSIM_CONFIG_DIR=/bettik/alberta/runs_nextsim/small-arctic-10km/run_10d_8cores
 
 # location of input data
 export NEXTSIM_INPUT_DIR=/summer/sasip/model-configurations/nextsim/small_arctic_10km/files
 
 # location of output data
-export NEXTSIM_OUTPUT_DIR=/bettik/alberta/small_arctic_10km/experiments/run_10d_16cores
+export NEXTSIM_OUTPUT_DIR=/bettik/alberta/small_arctic_10km/experiments/run_10d_8cores
 
 # path to master scripts
 export PATH=$NEXTSIM_CONFIG_DIR:$PATH
