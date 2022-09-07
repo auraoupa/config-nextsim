@@ -19,5 +19,5 @@ This configuration has been launched :
     - [330 days without debug options](https://github.com/auraoupa/config-nextsim/tree/main/small_arctic_10km_sidfex/run_330d_nodebug) with success in 4h37
     - 9 more runs for 330 days to check if different remesh do not change the results and it :
       - was a success for run 6 (in 6h10) and 10 (in 6h11)
-      - failed for ERROS in gmshmesh.cpp invalid file format entry at different time step (for run 3, 4, 5, 7, 8, 9 
+      - failed because of Error in gmshmesh.cpp invalid file format entry (at different time step 11/02, 06/03, 10/12, 30/09, 15/11, 06/02) for run 3, 4, 5, 7, 8, 9 
   
