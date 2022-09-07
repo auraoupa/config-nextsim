@@ -1,0 +1,20 @@
+# location of config files and master scripts
+export NEXTSIM_CONFIG_DIR=/bettik/alberta/runs_nextsim/small-arctic-10km-sidfex/run_330d_nodebug
+
+# location of input data
+export NEXTSIM_INPUT_DIR=/summer/sasip/model-configurations/nextsim/small_arctic_10km/files
+
+# location of output data
+export NEXTSIM_OUTPUT_DIR=/bettik/alberta/small-arctic-10km-sidfex/experiments/run_330d_nodebug
+
+# path to master scripts
+export PATH=$NEXTSIM_CONFIG_DIR:$PATH
+
+# singularity image
+export NEXTSIM_IMAGE_NAME=/bettik/alberta/runs_nextsim/nextsim.sif
+
+# all nextsim repos
+export NEXTSIM_CODE_DIR=/bettik/alberta/n/nextsim200
+
+#bind paths
+export SINGULARITY_BIND="$NEXTSIM_INPUT_DIR:/data,$NEXTSIM_OUTPUT_DIR:/output,$NEXTSIM_CONFIG_DIR:/config_files,$NEXTSIM_CODE_DIR:/nextsim,$NEXTSIM_CONFIG_DIR:/mesh"
