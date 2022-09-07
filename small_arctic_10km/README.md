@@ -10,4 +10,7 @@ This configuration has been run :
   - [10 days on dahu trying to output all the mesh decomposition](https://github.com/auraoupa/config-nextsim/tree/main/small_arctic_10km/run_10d_mesh) (pushing the debug buttons at max)
   - [330 days on 32 cores](https://github.com/auraoupa/config-nextsim/tree/main/small_arctic_10km/run_330d_32cores) (the optimum number of cores)
   - [300 days without all the debug options](https://github.com/auraoupa/config-nextsim/tree/main/small_arctic_10km/run_330d_nodebug)
+
+
+![](https://github.com/auraoupa/config-nextsim/blob/main/fig/perf-dahu-10d.png)
   
